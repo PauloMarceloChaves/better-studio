@@ -1,0 +1,76 @@
+@media (max-width: 375px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 2rem;
+    }
+
+    .logo {
+        display: grid;
+        color: var(--color-black);
+        padding-right: 1rem;
+    }
+
+    #burguer {
+
+        display: grid;
+        text-align: center;
+
+        border-radius: 0, 1rem, 0, 0;
+        background: var(--color-green);
+        width: 140px;
+
+
+        color: var(--color-white);
+    }
+
+    nav {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 500ms ease-in;
+
+        display: grid;
+
+        background: var(--color-green);
+        height: 208px;
+        width: 140px;
+        border-radius: 0px 0px 10px 0px;
+
+        justify-content: center;
+    }
+
+    nav.opened {
+        max-height: 100vh;
+    }
+
+    ul {
+
+        border-radius: 0px 0px 18px 0px;
+
+        gap: 1rem;
+        padding: 0.5rem;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 8rem;
+    }
+
+    li {
+        justify-content: center;
+        display: flex;
+    }
+   
+    .style {
+        font-size: 14px;
+        font-weight: 600;
+
+        line-height: 17px;
+       color: var(--color-white);
+
+       justify-content: center;
+    }
+
+}

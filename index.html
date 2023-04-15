@@ -6,16 +6,36 @@
     <meta name="description" content="Desenvolve 2023 - Projeto Studio">
     <title>Quem disse BetterStudio?</title>
     <link rel="icon" type="image/x-icon" href="/assets/logo.png">
-    <link rel="stylesheet" href="/components/desktop/stylee.css">
-    <link rel="stylesheet" href="/components/desktop/stylem.css">
-    <link rel="stylesheet" href="/components/mobile/mobilee.css">
-    <link rel="stylesheet" href="/components/mobile/mobilem.css">
-
+    <link rel="stylesheet" href="/components/desktop/style.css">
+    <link rel="stylesheet" href="/components/mobile/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+        <header>
+          <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+          </span>
+          <a class="logo" href="#"> Dev + Studio</a>
+        </header>
+        <div>
+          <nav id="nav">
+            <ul>
+              <li><a class="style" href="#">Home</a></li>
+              <li><a class="style" href="#">What We Do</a></li>
+              <li><a class="style" href="#">Service</a></li>
+              <li><a class="style" href="#">Project</a></li>
+              <li><a class="style" href="#">Blog</a></li>
+              <li><a class="style" href="#">Contact</a></li>
+            </ul> 
+        </div>
+      <script>
+        const nav = document.getElementById('nav');
+      
+        function clickMenu() {
+          nav.classList.toggle('opened');
+        }
+      </script>   
 </body>
 </html>
