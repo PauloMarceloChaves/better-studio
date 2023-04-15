@@ -6,36 +6,84 @@
     <meta name="description" content="Desenvolve 2023 - Projeto Studio">
     <title>Quem disse BetterStudio?</title>
     <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+    
     <link rel="stylesheet" href="/components/desktop/style.css">
     <link rel="stylesheet" href="/components/mobile/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
-        <header>
-          <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-          </span>
-          <a class="logo" href="#"> Dev + Studio</a>
-        </header>
-        <div>
-          <nav id="nav">
-            <ul>
-              <li><a class="style" href="#">Home</a></li>
-              <li><a class="style" href="#">What We Do</a></li>
-              <li><a class="style" href="#">Service</a></li>
-              <li><a class="style" href="#">Project</a></li>
-              <li><a class="style" href="#">Blog</a></li>
-              <li><a class="style" href="#">Contact</a></li>
-            </ul> 
-        </div>
-      <script>
-        const nav = document.getElementById('nav');
-      
-        function clickMenu() {
-          nav.classList.toggle('opened');
-        }
-      </script>   
+    <header>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+        </span>
+        <a class="logo" href="#"> Dev + Studio</a>
+    </header>
+    <div>
+        <nav id="nav">
+        <ul>
+            <li><a class="style" href="#">Home</a></li>
+            <li><a class="style" href="#">What We Do</a></li>
+            <li><a class="style" href="#">Service</a></li>
+            <li><a class="style" href="#">Project</a></li>
+            <li><a class="style" href="#">Blog</a></li>
+            <li><a class="style" href="#">Contact</a></li>
+        </ul> 
+    </div>
+    <script>
+    const nav = document.getElementById('nav');
+    
+    function clickMenu() {
+        nav.classList.toggle('opened');
+    }
+    </script>   
+
+    <main class="content">
+        <section class="main-content">
+            <div class="main-container">
+                <div class="elements">
+                    <div class="text-container">
+                        <h1>Quem disse BetterStudio?</h1>
+                        <h2>A Digital Product Agency</h2>
+                        <p class="text-section1">Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.</p>
+                        <button class="button">Contact Now</button>
+                        <div class="points">
+                            <hr>
+                            <hr>
+                            <hr>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="geometric-images">
+                        <div class="ellipse"></div>
+                        <div class="container-image">
+                            <img class="main-image" src="/assets/studio.png" alt="imagem de um estudio">
+                        </div>
+                        <div class="yellow-ellipse"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secondary-content">
+            <div class="secondary-container">
+                <div class="secondary-text">
+                    <h2>Our Client</h2>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé.</p>
+                </div>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="container-logos">
+                            <a href="//google.com.br" target="_blank"><img class="google" src="/assets/Google.png" alt="logo da Google"></a>
+                            <a href="//airbnb.com.br" target="_blank"><img class="airbnb" src="/assets/logo-airbnb.png" alt="logo da Airbnb"></a>
+                            <a href="//ubereats.com/br" target="_blank"><img class="uber" src="/assets/logo-uber-eats.png" alt="logo da Uber Eats"></a>
+                            <a href="https://www.amazon.com.br" target="_blank"><img class="amazon" src="/assets/logo-amazon.png" alt="logo da Amazon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
