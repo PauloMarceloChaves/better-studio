@@ -334,7 +334,7 @@ hr {
 
 .img__card__one {
 
-    background: url('../../image/box-search.svg'), var(--color-background-box);
+    background: url(../../assets/box-search.svg), var(--color-background-box);
     height: 121px;
     width: 121px;
     background-repeat: no-repeat;
@@ -346,7 +346,7 @@ hr {
 
 .img__card__two {
 
-    background: url('../../image/code.svg'), var(--color-background-code);
+    background: url(../../assets/code.svg), var(--color-background-code);
     height: 121px;
     width: 121px;
     background-repeat: no-repeat;
@@ -358,7 +358,7 @@ hr {
 }
 
 .img__card__three {
-    background: url('../../image/empty-wallet.svg'), var(--color-background-wallet);
+    background: url(../../assets/empty-wallet.svg), var(--color-background-wallet);
     height: 121px;
     width: 121px;
     background-repeat: no-repeat;
@@ -369,10 +369,9 @@ hr {
 }
 
 .img__card__four {
-    background: url('../../image/chart-square.svg'), var(--color-background-chart-square);
+    background: url(../../assets/chart-square.svg), var(--color-background-chart-square);
     height: 121px;
     width: 121px;
-    background-repeat: no-repeat;
     background-position: center;
 
     justify-self: center;
@@ -608,4 +607,45 @@ hr {
     color: #000000;
     transform: scale(1.1);
     transition: all 0.5s;
+}
+.font__weigth__size {
+
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.secondary__title {
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: var(--color-black);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__first{
+    width:80vw;
+    display: flex;
+}
+
+.footer__second{
+    width: 80vw;
+}
+
+.footer__third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.2rem;
+}
+
+.copyrigth{
+    padding: 2rem;
 }
