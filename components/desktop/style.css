@@ -1,3 +1,18 @@
+/* versão Desktop */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
 .logo {
     display: none;
 }
@@ -24,4 +39,192 @@ ul {
 
     font-size: 16px;
     font-weight: 400;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 655px;
+    display: flex;
+    flex-direction: column;
+}
+
+.elements {
+    display: flex;
+    gap: 32px;
+}
+
+.text-container {
+    width: 471px;
+}
+
+h1 {
+    height: 56px;
+    font-size: 27.15px;
+    line-height: 32.85px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 95px;
+}
+
+h2 {
+    height: 49px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+p {
+    color: #757575;
+}
+
+.text-section1 {
+    width: 471px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    margin: 40px 0 33px 0;
+}
+
+.button {
+    width: 215px;
+    height: 65px;
+    border-radius: 60px;
+    background-color: #2639ED;
+    border: 0.5px solid #2639ED;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.72px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #DAE9FF;
+    border: #DAE9FF;
+    color: #000000;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.points {
+    width: 404px;
+    height: 154px;
+    margin: -33px 0 0 -53px;
+}
+
+hr {
+    border-top: 7px dotted #E7F0FC !important;
+    border-bottom: 7px dotted #E7F0FC !important;
+    border: none;
+    padding: 7px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 14px;
+}
+
+.geometric-images {
+    width: 817px;
+    height: 578px;
+    padding-top: 28px;
+}
+
+.ellipse {
+    width: 129px;
+    height: 129px;
+    border-radius: 50%;
+    background-color: #DAE9FF;
+}
+
+.container-image {
+    width: 754px;
+    height: 512px;
+    display: flex;
+    margin: -129px 0 0 63px;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.yellow-ellipse {
+    width: 178px;
+    height: 178px;
+    border-end-end-radius: 50%;
+    background-color: #FFF5DB;
+    margin: -82px 0 0 519px;
+}
+
+.secondary-content {
+    width: 100%;
+}
+
+.secondary-container {
+    max-width: 1200px;
+    padding-bottom: 180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.secondary-text {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    gap: 17px;
+}
+
+.secondary-text p {
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.carousel-container {
+   display: flex;
+}
+
+.carousel {
+    width: 864px;
+    height: 120px;
+}
+
+.container-logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.google {
+    margin-top: 56px;
+    margin-bottom: 18.64px;
+}
+
+.airbnb {
+    margin-top: 54px;
+    margin-bottom: 17.86px;
+}
+
+.uber {
+    margin-top: 66.50px;
+    margin-bottom: 30px;
+}
+
+.amazon {
+    margin-top: 71px;
+    margin-bottom: 10px;
 }
