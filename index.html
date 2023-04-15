@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Desenvolve 2023 - Projeto Studio">
     <title>Quem disse BetterStudio?</title>
     <link rel="icon" type="image/x-icon" href="/assets/logo.png">
-    
+
     <link rel="stylesheet" href="/components/desktop/style.css">
     <link rel="stylesheet" href="/components/mobile/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,28 +18,28 @@
 <body>
     <header>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
-        menu
+            menu
         </span>
         <a class="logo" href="#"> Dev + Studio</a>
     </header>
     <div>
         <nav id="nav">
-        <ul>
-            <li><a class="style" href="#">Home</a></li>
-            <li><a class="style" href="#">What We Do</a></li>
-            <li><a class="style" href="#">Service</a></li>
-            <li><a class="style" href="#">Project</a></li>
-            <li><a class="style" href="#">Blog</a></li>
-            <li><a class="style" href="#">Contact</a></li>
-        </ul> 
+            <ul>
+                <li><a class="style" href="#">Home</a></li>
+                <li><a class="style" href="#">What We Do</a></li>
+                <li><a class="style" href="#">Service</a></li>
+                <li><a class="style" href="#">Project</a></li>
+                <li><a class="style" href="#">Blog</a></li>
+                <li><a class="style" href="#">Contact</a></li>
+            </ul>
     </div>
     <script>
-    const nav = document.getElementById('nav');
-    
-    function clickMenu() {
-        nav.classList.toggle('opened');
-    }
-    </script>   
+        const nav = document.getElementById('nav');
+
+        function clickMenu() {
+            nav.classList.toggle('opened');
+        }
+    </script>
 
     <main class="content">
         <section class="main-content">
@@ -47,7 +48,9 @@
                     <div class="text-container">
                         <h1>Quem disse BetterStudio?</h1>
                         <h2>A Digital Product Agency</h2>
-                        <p class="text-section1">Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.</p>
+                        <p class="text-section1">Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis,
+                            vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e
+                            fermentis.</p>
                         <button class="button">Contact Now</button>
                         <div class="points">
                             <hr>
@@ -75,15 +78,89 @@
                 <div class="carousel-container">
                     <div class="carousel">
                         <div class="container-logos">
-                            <a href="//google.com.br" target="_blank"><img class="google" src="/assets/Google.png" alt="logo da Google"></a>
-                            <a href="//airbnb.com.br" target="_blank"><img class="airbnb" src="/assets/logo-airbnb.png" alt="logo da Airbnb"></a>
-                            <a href="//ubereats.com/br" target="_blank"><img class="uber" src="/assets/logo-uber-eats.png" alt="logo da Uber Eats"></a>
-                            <a href="https://www.amazon.com.br" target="_blank"><img class="amazon" src="/assets/logo-amazon.png" alt="logo da Amazon"></a>
+                            <a href="//google.com.br" target="_blank"><img class="google" src="/assets/Google.png"
+                                    alt="logo da Google"></a>
+                            <a href="//airbnb.com.br" target="_blank"><img class="airbnb" src="/assets/logo-airbnb.png"
+                                    alt="logo da Airbnb"></a>
+                            <a href="//ubereats.com/br" target="_blank"><img class="uber"
+                                    src="/assets/logo-uber-eats.png" alt="logo da Uber Eats"></a>
+                            <a href="https://www.amazon.com.br" target="_blank"><img class="amazon"
+                                    src="/assets/logo-amazon.png" alt="logo da Amazon"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="how__can__container">
+            <div class="big__square"></div>
+            <div class="square"></div>
+            <h2>How can we help your Business ?</h2>
+            <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
+
+            <section class="dotted__line">
+                <div id="dotted__line__one">
+                    <hr>
+                    <hr>
+                    <hr>
+                    <hr>
+                </div>
+                <div id="dotted__line__two">
+                    <hr>
+                    <hr>
+                    <hr>
+                    <hr>
+                </div>
+            </section>
+        </section>
+        <section class="card__container">
+            <div>
+                <ul class="card__one__two">
+                    <li class="card">
+                        <div class="img__card__one"></div>
+                        <h2 class="h2__card">Business Idea Planning</h2>
+                        <p class="p__card">We present you a proposal and discuss niffty-gritty like</p>
+                    </li>
+                    <li class="card">
+                        <div class="img__card__two"></div>
+                        <h2 class="h2__card">Development Website and App</h2>
+                        <p class="p__card">Communication protocols apart from engagement models</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="card__three__four">
+                    <li class="card">
+                        <div class="img__card__three"></div>
+                        <h2 class="h2__card">Financial Planning System</h2>
+                        <p class="p__card">Protocols apart from aengage models, pricing billing</p>
+                    </li>
+                    <li class="card card__four">
+                        <div class="img__card__four"></div>
+                        <h2 class="h2__card">Market Analysis Project</h2>
+                        <p class="p__card">Protocols apart from aengage models, pricing billing</p>
+                    </li>
+                </ul>
+                <div class="circle"></div>
+            </div>
+        </section>
+        <div class="section__four">
+            <div>
+                <video class="video" src="../../black-pumas-colors-live-at-abbey-road-studios.mp4" autoplay
+                    controls></video>
+                <div class="circle__video"></div>
+            </div>
+
+            <section class="great__digital__container">
+                <div class="square__section__four"></div>
+                <h2>Great Digital Product Agency since 2016 </h2>
+                <p>Our Business Plan is a written document describing a company's core business activites, Objectives, and
+                    how it plans to achieve its goals. Our goal is to provide our client high quality Product with modern
+                    idea accordingly their budgets and according thir reuirements.</p>
+            </section>
+        </div>
+
+
     </main>
 </body>
+
 </html>

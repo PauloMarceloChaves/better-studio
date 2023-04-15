@@ -228,3 +228,277 @@ hr {
     margin-top: 71px;
     margin-bottom: 10px;
 }
+.big__square {
+    background-color: var(--color-light-blue);
+    height: 619px;
+    width: 1047px;
+    border-radius: 150px 0px 0px 0px;
+    box-sizing: border-box;
+    z-index: -2;
+    position: relative;
+    top: 436px;
+    left: 334px;
+}
+
+.square {
+    background-color: var(--color-background-how-can);
+    width: 178px;
+    height: 178px;
+    border-radius: 100px 0px 0px 0px;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.how__can__container {
+    z-index: -1;
+}
+
+.how__can__container h2 {
+    color: var(--color-black);
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 48px;
+    width: 358px;
+    left: 3rem;
+}
+
+.how__can__container p {
+
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--color-textcolor);
+
+    position: relative;
+    top: 76px;
+    left: 3rem;
+    width: 396px;
+}
+
+.dotted__line {
+
+    display: flex;
+    gap: 0.5rem;
+
+    position: relative;
+    left: 3rem;
+    top: 203px;
+}
+
+#dotted__line__one {
+    width: 16%;
+}
+
+#dotted__line__two {
+    width: 6%;
+
+    z-index: -3;
+}
+
+hr {
+    border: 7px dotted #E7F0FC;
+    top: 595px;
+    left: 402px;
+    padding: 3.5px;
+    margin-bottom: 7px;
+}
+
+.card__container {
+    display: flex;
+    gap: 2rem;
+    left: 505px;
+    position: relative;
+    bottom: 537px;
+}
+
+
+
+.card {
+    height: 379px;
+    width: 308px;
+
+    border-radius: 40px;
+    border-color: var(--color-border-card);
+    border: 1px;
+    background-color: var(--color-white);
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+
+    box-shadow: 0px 10px 50px 0px var( --color-border-card);
+}
+
+.img__card__one {
+
+    background: url('../../image/box-search.svg'), var(--color-background-box);
+    height: 121px;
+    width: 121px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    justify-self: center;
+    border-radius: 20px;
+}
+
+.img__card__two {
+
+    background: url('../../image/code.svg'), var(--color-background-code);
+    height: 121px;
+    width: 121px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    justify-self: center;
+    border-radius: 20px;
+
+}
+
+.img__card__three {
+    background: url('../../image/empty-wallet.svg'), var(--color-background-wallet);
+    height: 121px;
+    width: 121px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    justify-self: center;
+    border-radius: 20px;
+}
+
+.img__card__four {
+    background: url('../../image/chart-square.svg'), var(--color-background-chart-square);
+    height: 121px;
+    width: 121px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    justify-self: center;
+    border-radius: 20px;
+}
+
+.card__one__two {
+    display: grid;
+    gap: 2rem;
+}
+
+.card__three__four {
+    display: grid;
+    gap: 2rem;
+    bottom: 68px;
+    position: relative;
+}
+
+.card__four {
+    box-shadow: 0px 10px 0px 0px var( --color-border-card) !important;
+}
+
+.h2__card {
+    font-size: 24px;
+    font-weight: 600;
+
+    text-align: center;
+
+    color: var(--color-black);
+
+
+    line-height: 30px;
+    height: 60px;
+    width: 239px;
+}
+
+.p__card {
+    font-size: 16px;
+    font-weight: 400;
+
+    text-align: center;
+    font-family: Averta Demo PE Cutted Demo;
+
+    line-height: 22px;
+
+    color: var(--color-textcolor-card);
+
+
+    height: 44px;
+    width: 245px;
+}
+
+
+.circle {
+    height: 120px;
+    width: 120px;
+
+
+    box-sizing: border-box;
+
+    border-radius: 50%;
+    border: 8.8px solid #FF007A;
+
+    position: relative;
+
+    left: 248px;
+    bottom: 132px;
+    z-index: -3;
+}
+.square__section__four {
+    background-color: var(--color-background-great);
+    width: 178px;
+    height: 178px;
+    border-radius: 0px 0px 100px 0px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.section__four {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.video {
+
+    height: 372px;
+    width: 550px;
+    border-radius: 32px;
+
+    box-shadow: 10px 20px 50px 0px var(--color-black);
+}
+
+.circle__video {
+    height: 129px;
+    width: 129px;
+    border-radius: 62px;
+    background-color: var(--color-beige);
+
+    transform: translate(479px, -81px);
+    z-index:-1;
+    position: relative;
+}
+
+.great__digital__container h2 {
+    height: 98px;
+    width: 468px;
+
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color-black);
+
+    transform: translate(10%, 27%);
+}
+
+.great__digital__container p {
+
+    font-size: 16px;
+    font-weight: 400;
+
+    height: 104px;
+    width: 532px;
+    color: var( --color-textcolor);
+
+    transform: translate(9%, 55%);
+}
+
