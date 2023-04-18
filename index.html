@@ -21,26 +21,27 @@
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
             menu
         </span>
-        <a class="logo" href="#">Quem disse BetterStudio?</a>
-    </header>
-    <div>
-        <nav id="nav">
-            <ul>
-                <li><a class="style" href="#">Home</a></li>
-                <li><a class="style" href="#">What We Do</a></li>
-                <li><a class="style" href="#">Service</a></li>
-                <li><a class="style" href="#">Project</a></li>
-                <li><a class="style" href="#">Blog</a></li>
-                <li><a class="style" href="#">Contact</a></li>
-            </ul>
-    </div>
-    <script>
-        const nav = document.getElementById('nav');
+        <a class="logo" href="#">BetterStudio</a>
+        <div class="nav-header">
+            <nav id="nav">
+                <ul>
+                    <li><a class="style" href="#">Home</a></li>
+                    <li><a class="style" href="#">What We Do</a></li>
+                    <li><a class="style" href="#">Service</a></li>
+                    <li><a class="style" href="#">Project</a></li>
+                    <li><a class="style" href="#">Blog</a></li>
+                    <li><a class="style" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script>
+            const nav = document.getElementById('nav');
 
-        function clickMenu() {
-            nav.classList.toggle('opened');
-        }
-    </script>
+            function clickMenu() {
+                nav.classList.toggle('opened');
+            }
+        </script>
+    </header>
 
     <main class="content">
         <section class="main-content">
@@ -49,15 +50,15 @@
                     <div class="text-container">
                         <h1>Quem disse BetterStudio?</h1>
                         <h2>A Digital Product Agency</h2>
-                        <p class="text-section1">Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis,
-                            vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e
-                            fermentis.</p>
+                        <p class="text-main">Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis,
+                        vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e
+                        fermentis.</p>
                         <button class="button">Contact Now</button>
                         <div class="points">
-                            <hr>
-                            <hr>
-                            <hr>
-                            <hr>
+                            <hr class="hr-points">
+                            <hr class="hr-points">
+                            <hr class="hr-points">
+                            <hr class="hr-points">
                         </div>
                     </div>
                     <div class="geometric-images">
@@ -79,92 +80,94 @@
                 <div class="carousel-container">
                     <div class="carousel">
                         <div class="container-logos">
-                            <a href="//google.com.br" target="_blank"><img class="google" src="/assets/Google.png"
-                                    alt="logo da Google"></a>
-                            <a href="//airbnb.com.br" target="_blank"><img class="airbnb" src="/assets/logo-airbnb.png"
-                                    alt="logo da Airbnb"></a>
-                            <a href="//ubereats.com/br" target="_blank"><img class="uber"
-                                    src="/assets/logo-uber-eats.png" alt="logo da Uber Eats"></a>
-                            <a href="https://www.amazon.com.br" target="_blank"><img class="amazon"
-                                    src="/assets/logo-amazon.png" alt="logo da Amazon"></a>
+                            <ul>
+                                <li><a href="//google.com.br" target="_blank"><img class="google" src="/assets/logo-google.png"
+                                    alt="logo da Google"></a></li>
+                                <li><a href="//airbnb.com.br" target="_blank"><img class="airbnb" src="/assets/logo-airbnb.png"
+                                    alt="logo da Airbnb"></a></li>
+                                <li><a href="//ubereats.com/br" target="_blank"><img class="uber"
+                                    src="/assets/logo-uber-eats.png" alt="logo do Uber Eats"></a></li>
+                                <li><a href="https://amazon.com.br" target="_blank"><img class="amazon"
+                                    src="/assets/logo-amazon.png" alt="logo da Amazon"></a></li>
+                                <li><a href="https://oboticario.com.br" target="_blank"><img class="boticario"
+                                    src="/assets/logo-boticario.png" alt="logo de O Boticário"></a></li>
+                                <li><a href="https://alura.com.br" target="_blank"><img class="alura"
+                                    src="/assets/logo-alura.png" alt="logo da Alura"></a></li>
+                                <li><a href="https://quemdisseberenice.com.br" target="_blank"><img class="berenice"
+                                    src="/assets/logo-quemdisseberenice.png" alt="logo da Quem Disse Berenice"></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <div class="section__three">
-            <section class="how__can__container">
-                <div class="big__square"></div>
+        <section class="how__can__container">
+            <div class="teste">
                 <div class="square"></div>
-                <h2>How can we help your Business ?</h2>
-                <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
+                <div class="big__square"></div>
+            </div>
+            <h2>How can we help your Business?</h2>
+            <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
 
-                <section class="dotted__line">
-                    <div id="dotted__line__one">
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                    </div>
-                    <div id="dotted__line__two">
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                    </div>
-                </section>
-            </section>
-            <section class="card__container">
-                <div>
-                    <ul class="card__one__two">
-                        <li class="card">
-                            <div class="img__card__one"></div>
-                            <h2 class="h2__card">Business Idea Planning</h2>
-                            <p class="p__card">We present you a proposal and discuss niffty-gritty like</p>
-                        </li>
-                        <li class="card">
-                            <div class="img__card__two"></div>
-                            <h2 class="h2__card">Development Website and App</h2>
-                            <p class="p__card">Communication protocols apart from engagement models</p>
-                        </li>
-                    </ul>
+            <section class="dotted__line">
+                <div id="dotted__line__one">
+                    <hr class="hr__dotted">
+                    <hr class="hr__dotted">
+                    <hr class="hr__dotted">
+                    <hr class="hr__dotted">
                 </div>
-                <div>
-                    <ul class="card__three__four">
-                        <li class="card">
-                            <div class="img__card__three"></div>
-                            <h2 class="h2__card">Financial Planning System</h2>
-                            <p class="p__card">Protocols apart from aengage models, pricing billing</p>
-                        </li>
-                        <li class="card card__four">
-                            <div class="img__card__four"></div>
-                            <h2 class="h2__card">Market Analysis Project</h2>
-                            <p class="p__card">Protocols apart from aengage models, pricing billing</p>
-                        </li>
-                    </ul>
-                    <div class="circle"></div>
+                <div id="dotted__line__two">
+                    <hr class="hr__dotted">
+                    <hr class="hr__dotted">
+                    <hr class="hr__dotted">
+                    <hr class="hr__dotted">
                 </div>
             </section>
-        </div>
-
-        <div class="section__four">
+        </section>
+        <section class="card__container">
+            <div>
+                <ul class="card__one__two">
+                    <li class="card">
+                        <div class="img__card__one"></div>
+                        <h2 class="h2__card">Business Idea Planning</h2>
+                        <p class="p__card">We present you a proposal and discuss niffty-gritty like</p>
+                    </li>
+                    <li class="card">
+                        <div class="img__card__two"></div>
+                        <h2 class="h2__card">Development Website and App</h2>
+                        <p class="p__card">Communication protocols apart from engagement models</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="card__three__four">
+                    <li class="card">
+                        <div class="img__card__three"></div>
+                        <h2 class="h2__card">Financial Planning System</h2>
+                        <p class="p__card">Protocols apart from aengage models, pricing billing</p>
+                    </li>
+                    <li class="card card__four">
+                        <div class="img__card__four"></div>
+                        <h2 class="h2__card">Market Analysis Project</h2>
+                        <p class="p__card">Protocols apart from aengage models, pricing billing</p>
+                    </li>
+                </ul>
+                <div class="circle"></div>
+            </div>
+        </section>
+        <section class="section__four">
             <div>
                 <video class="video" src="video/black-pumas-colors-live-at-abbey-road-studios.mp4" autoplay
                     controls></video>
                 <div class="circle__video"></div>
             </div>
 
-            <section class="great__digital__container">
+            <div class="great__digital__container">
                 <div class="square__section__four"></div>
                 <h2>Great Digital Product Agency since 2016 </h2>
-                <p>Our Business Plan is a written document describing a company's core business activites, Objectives,
-                    and
-                    how it plans to achieve its goals. Our goal is to provide our client high quality Product with
-                    modern
-                    idea accordingly their budgets and according thir reuirements.</p>
-            </section>
-        </div>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.In elementis mé pra quem é amistosis quis leo.Diuretics paradis num copo é motivis de denguis.Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</p>
+            </div>
+        </section>
         <section class="fifth-content">
             <div class="fifth-container">
                 <div>
@@ -176,10 +179,10 @@
                 </div>
                 <div class="container-email">
                     <div class="points-email">
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
+                        <hr class="hr-email">
+                        <hr class="hr-email">
+                        <hr class="hr-email">
+                        <hr class="hr-email">
                     </div>
                     <div class="subscribe-email">
                         <img class="image-subscribe" src="/assets/rectangle-3.png" alt="poligono azul">
@@ -195,54 +198,49 @@
     </main>
 </body>
 <footer>
-
-    <div class="footer__first">
-        <h3 class="font__weigth__size">Leading digital agency with solid design and development expertise. We build
-            readymade websites, mobile
-            applications, and elaborate online business services.</h3>
-        <img src="assets/logo-facebook.svg" alt="logo-facebook">
-        <img src="assets/logo-twitter.svg" alt="logo-twitter">
-        <img src="assets/logo-linkedin.svg" alt="logo-linkedin">
-    </div>
-    <div class="footer__second">
-        <h2 class="secondary__title">What We Do</h2>
-        <h3 class="font__weigth__size">Web Design</h3>
-        <h3 class="font__weigth__size">App Design</h3>
-        <h3 class="font__weigth__size">Social Media Manage</h3>
-        <h3 class="font__weigth__size">Market Analysis Project</h3>
-    </div>
-
-    <section class="footer__third">
-        <div>
-            <h2 class="secondary__title">Company</h2>
-            <h3 class="font__weigth__size">About Us</h3>
-            <h3 class="font__weigth__size">Career</h3>
-            <h3 class="font__weigth__size">Become Investor</h3>
+    <hr class="hr__top">
+    <section class="footer__container">
+        <div class="footer__first">
+            <h3 class="font__weigth__size">
+                Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.In elementis mé pra quem é amistosis quis leo.
+            </h3>
+            <div class="container-media">
+                <a href="//facebook.com" target="_blank"><img src="assets/logo-facebook.svg" alt="logo-facebook"></a>
+                <a href="//twitter.com" target="_blank"><img src="assets/logo-twitter.svg" alt="logo-twitter"></a>
+                <a href="//linkedin.com/" target="_blank"><img src="assets/logo-linkedin.svg" alt="logo-linkedin"></a>
+            </div>
         </div>
-        <div>
-            <h2 class="secondary__title">Support</h2>
-            <h3 class="font__weigth__size">FAQ</h3>
-            <h3 class="font__weigth__size">Policy </h3>
-            <h3 class="font__weigth__size">Business</h3>
-        </div>
-        <div>
-            <h2 class="secondary__title">Contact</h2>
-            <h3 class="font__weigth__size">WhatsApp</h3>
-            <h3 class="font__weigth__size">Support 24</h3>
+        <div class="container__menu__footer">
+            <div class="footer__second">
+                <div>
+                    <h2 class="secondary__title">What We Do</h2>
+                    <h3 class="font__size">Web Design</h3>
+                    <h3 class="font__size">App Design</h3>
+                    <h3 class="font__size">Social Media Manage</h3>
+                    <h3 class="font__size">Market Analysis Project</h3>
+                </div>
+                <div>
+                    <h2 class="secondary__title">Company</h2>
+                    <h3 class="font__size">About Us</h3>
+                    <h3 class="font__size">Career</h3>
+                    <h3 class="font__size">Become Investor</h3>
+                </div>
+                <div>
+                    <h2 class="secondary__title">Support</h2>
+                    <h3 class="font__size">FAQ</h3>
+                    <h3 class="font__size">Policy </h3>
+                    <h3 class="font__size">Business</h3>
+                </div>
+                <div>
+                    <h2 class="secondary__title">Contact</h2>
+                    <h3 class="font__size">WhatsApp</h3>
+                    <h3 class="font__size">Support 24</h3>
+                </div>
+            </div>
         </div>
     </section>
-
-    <div>
-        <div class="footer__mobile">
-            <h3 class="home">Home</h3>
-            <h3>What We Do</h3>
-            <h3>Service</h3>
-            <h3>Project</h3>
-            <h3>Blog</h3>
-            <h3>Contact</h3>
-        </div>
-        <p class="copyrigth">&copy; Copyright 2022 Avi Yansah</p>
-    </div>
+    <hr class="hr__end">
+    <p class="copyrigth">&copy; Copyright 2022 Avi Yansah</p>
 </footer>
 
 </html>
