@@ -656,9 +656,12 @@ footer {
     align-items: center;
 }
 
+.footer__mobile {
+    display: none;
+}
 .footer__first{
     width:80vw;
-    display: flex;
+
 }
 
 .footer__second{

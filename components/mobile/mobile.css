@@ -1,16 +1,20 @@
-@media (max-width: 375px) {
+@media (max-width: 414px) {
 
     header {
         display: flex;
-        align-items: center;
+
         justify-content: space-between;
-        padding-right: 2rem;
+        align-items: center;
+
+        padding-right: 1rem;
     }
 
     .logo {
         display: grid;
         color: var(--color-black);
-        padding-right: 1rem;
+        padding-right: 4rem;
+
+        font-size: 14px;
     }
 
     #burguer {
@@ -19,11 +23,8 @@
         text-align: center;
 
         border-radius: 0, 1rem, 0, 0;
-        background: var(--color-green);
-        width: 140px;
 
-
-        color: var(--color-white);
+        width: 130px;
     }
 
     nav {
@@ -62,15 +63,260 @@
         justify-content: center;
         display: flex;
     }
-   
+
     .style {
         font-size: 14px;
         font-weight: 600;
 
         line-height: 17px;
-       color: var(--color-white);
+        color: var(--color-white);
 
-       justify-content: center;
+        justify-content: center;
     }
+
+    .text-container h1 {
+        display: none;
+    }
+
+    .text-container h2 {
+        font-size: 32px;
+
+
+        height: 4rem;
+        width: 17rem;
+
+
+        text-align: center;
+    }
+
+    .elements {
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 50vh;
+
+    }
+
+    .text-section1 {
+        height: 6rem;
+        width: 19rem;
+
+
+        text-align: center;
+    }
+
+    .button {
+        height: 2rem;
+        width: 9rem;
+
+        font-size: 11px;
+        font-weight: 700;
+
+        padding: 0px;
+    }
+
+    .container-image {
+        height: 12rem;
+        width: 19rem;
+    }
+
+    .points {
+        height: 124px;
+        width: 308px;
+
+        transform: translate(-15%, -146%);
+        z-index: -1;
+        position: relative;
+    }
+
+
+    .geometric-images {
+        width: 50%;
+        padding: 0px;
+
+    }
+
+    .ellipse {
+        width: 3.5rem;
+        height: 3.5rem;
+
+
+        transform: translate(41px, -69px);
+        z-index: -3;
+        position: relative;
+    }
+
+
+    .yellow-ellipse {
+        width: 3.9375rem;
+        height: 3.9375rem;
+
+        transform: translate(-222px, 38px);
+
+        z-index: -2;
+        position: relative;
+    }
+
+
+    .secondary-container {
+        flex-direction: column;
+    }
+
+    .container-logos {
+       display: grid;
+
+
+    }
+
+
+    .section__four {
+        flex-direction: column;
+    }
+
+
+    .section__three {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .video {
+        height: 12rem;
+        width: 19rem;
+
+        border-radius: 1rem;
+
+        box-shadow: 0px 0px 0px 0px var(--color-textcolor-card);
+    }
+
+    .circle__video {
+        height: 4rem;
+        width: 4rem;
+
+        transform: translate(264px, -53px);
+    }
+
+    .square__section__four {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .great__digital__container h2 {
+        height: 8rem;
+        width: 18rem;
+
+        font-size: 32px !important;
+        font-weight: 700 !important;
+        line-height: 32px;
+
+        text-align: center;
+    }
+
+    .great__digital__container p {
+
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+
+        text-align: center;
+
+
+        height: 8rem;
+        width: 18rem;
+        ;
+
+    }
+
+
+
+    .fifth-container {
+        flex-direction: column;
+    }
+
+    .fifth-content {
+        height: 13rem;
+        width: 23rem;
+        border-radius: 4rem;
+    }
+
+    .subscribe-container {
+        height: 2rem;
+        width: 20rem;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 6rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+
+
+    .subscribe-container h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+
+    .subscribe-container p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .second-ellipse {
+        display: none;
+    }
+
+    .points-email {
+        display: none;
+    }
+
+    .image-subscribe {
+        display: none;
+    }
+
+
+    .footer__first {
+        text-align: center;
+
+        font-size: 16px;
+        font-weight: 400;
+
+        line-height: 23px;
+
+    }
+
+
+    .footer__first h3 {
+        padding: 1rem;
+    }
+
+    .footer__second {
+        display: none;
+    }
+
+    .footer__third {
+        display: none;
+    }
+
+    .footer__mobile {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 1rem;
+    }
+
+    .footer__mobile h3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .home {
+        font-weight: 700 !important;
+    }
+
+
 
 }
