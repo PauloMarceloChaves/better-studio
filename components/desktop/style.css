@@ -34,7 +34,7 @@ body {
     --color-background-great: #EFF1FF;
 }
 
-#burguer {
+#menu__burguer {
     display: none;
 }
 
@@ -51,7 +51,7 @@ body {
     color: var(--color-black);
 }
 
-.nav-header {
+.nav__header {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -86,32 +86,32 @@ ul a {
     flex-direction: column;
 }
 
-.main-content {
+.main__content {
     width: 100%;
     margin-top: 19px;
 }
 
-.main-container {
-    width: 1440px;
+.main__container {
+    max-width: 1440px;
     height: 676px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding-left: 68px;
 }
 
 .elements {
     width: 1372px;
     display: flex;
-    gap: 41px;
-    padding-left: 68px;
+    gap: 32px;
 }
 
-.text-container {
+.text__container {
     width: 471px;
     margin-left: 52px;
 }
 
-.text-container h1 {
+.text__container h1 {
     height: 56px;
     font-size: 27.15px;
     line-height: 32.85px;
@@ -120,17 +120,17 @@ ul a {
     margin-bottom: 95px;
 }
 
-.text-container h2 {
+.text__container h2 {
     height: 49px;
     font-size: 38px;
     font-weight: 700;
 }
 
-.text-container p {
+.text__container p {
     color: #757575;
 }
 
-.text-main {
+.text__main {
     width: 471px;
     height: 78px;
     font-size: 16px;
@@ -164,10 +164,10 @@ ul a {
 .points {
     width: 404px;
     height: 154px;
-    margin: -36px 0 0 -68px;
+    margin: -36px 0 0 -52px;
 }
 
-.hr-points {
+.hr__points {
     border-top: 7px dotted #F4F4F4 !important;
     border-bottom: 7px dotted #F4F4F4 !important;
     border: none;
@@ -176,7 +176,7 @@ ul a {
     display: flex;
 }
 
-.geometric-images {
+.geometric__images {
     width: 817px;
     height: 578px;
     padding-top: 28px;
@@ -189,18 +189,18 @@ ul a {
     background-color: #DAE9FF;
 }
 
-.container-image {
+.container__image {
     width: 754px;
     height: 512px;
     display: flex;
     margin: -129px 0 0 63px;
 }
 
-.main-image {
+.main__image {
     width: 100%;
 }
 
-.yellow-ellipse {
+.yellow__ellipse {
     width: 178px;
     height: 178px;
     border-end-end-radius: 50%;
@@ -208,11 +208,11 @@ ul a {
     margin: -82px 0 0 519px;
 }
 
-.secondary-content {
+.secondary__content {
     width: 100%;
 }
 
-.secondary-container {
+.secondary__container {
     max-width: 1200px;
     padding-bottom: 94px;
     margin: 0 auto;
@@ -221,20 +221,26 @@ ul a {
     gap: 60px;
 }
 
-.secondary-text {
+.secondary__text {
     display: flex;
     flex-direction: column;
     width: 336px;
     gap: 17px;
 }
 
-.secondary-text p {
+.secondary__text h2 {
+    height: 49px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.secondary__text p {
     height: 58px;
     font-size: 18px;
     font-weight: 400;
 }
 
-.carousel-container {
+.carousel__container {
    display: flex;
 }
 
@@ -243,7 +249,7 @@ ul a {
     height: 120px;
 }
 
-.container-logos {
+.container__logos {
     width: 95%;
     margin: auto;
     overflow: hidden;
@@ -252,19 +258,19 @@ ul a {
     gap: 60px; */
 }
 
-.container-logos ul {
+.container__logos ul {
     display: flex;
     padding: 0;
     width: 100%;
     animation: automatico 15s infinite alternate linear;
 }
 
-.container-logos li {
+.container__logos li {
     width: 100%;
     list-style: none;
 }
 
-.container-logos img {
+.container__logos img {
     width: 100%;
 }
 
@@ -303,23 +309,25 @@ ul a {
     margin-bottom: 10px;
 }
 
-.how__can__container {
-    max-width: 1358px;
-    margin-left: 82px;
+/* .how__can__container {
+    max-width: 1440px;
+    padding-left: 82px;
+} */
+
+.third__content {
+    width: 100%;
 }
 
-.teste {
+.third__container {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    gap: 133px;
 }
 
-.big__square {
-    background-color: var(--color-light-blue);
-    height: 619px;
-    width: 1047px;
-    border-radius: 150px 0px 0px 0px;
-    margin-top: 140px;
+.geometric__how__can {
+    width: 1358px;
+    height: 867px;
+    margin: 0 58px;
+    display: flex;
 }
 
 .square {
@@ -328,40 +336,64 @@ ul a {
     height: 178px;
     border-radius: 100px 0px 0px 0px;
     margin-top: 300px;
+    z-index: -1;
 }
 
+.third__text {
+    z-index: +1;
+}
 
-.how__can__container h2 {
+.third__text h2 {
     color: var(--color-black);
     font-size: 40px;
     font-weight: 600;
-    position: relative;
-    top: 48px;
+    line-height: 49.44px;
     width: 358px;
-    left: 3rem;
+    height: 98px;
+    margin: -120px 0 30px 39px;
+
 }
 
-.how__can__container p {
-
+.third__text p {
     font-size: 16px;
     font-weight: 400;
-
+    line-height: 25.6px;
     color: var(--color-textcolor);
-
-    position: relative;
-    top: 76px;
-    left: 3rem;
-    width: 396px;
+    width: 415px;
+    height: 52px;
+    margin: 30px 0 0 39px;
 }
 
-.dotted__line {
+.points {
+    width: 405px;
+    height: 154px;
+    margin: 109px 0 0 39px;
+}
 
+.hr__dotted {
+    border-top: 7px dotted #E7F0FC !important;
+    border-bottom: 7px dotted #E7F0FC !important;
+    border: none;
+    padding: 7px;
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.big__square {
+    background-color: var(--color-light-blue);
+    height: 619px;
+    width: 1047px;
+    border-radius: 150px 0px 0px 0px;
+    margin: 140px 0 0 -125px;
+}
+
+/* .dotted__line {
     display: flex;
     gap: 0.5rem;
 
     position: relative;
     left: 3rem;
-    top: 203px;
+    top: -275px;
 }
 
 #dotted__line__one {
@@ -380,14 +412,12 @@ ul a {
     left: 402px;
     padding: 3.5px;
     margin-bottom: 7px;
-}
+} */
 
-.card__container {
+.third__card {
     display: flex;
     gap: 2rem;
-    left: 505px;
-    position: relative;
-    bottom: 537px;
+    height: 0;
 }
 
 .card {
@@ -603,6 +633,12 @@ ul a {
     flex-direction: column;
     margin-left: 92px;
     gap: 17px;
+}
+
+.subscribe-container h2 {
+    height: 49px;
+    font-size: 38px;
+    font-weight: 700;
 }
 
 .subscribe-container p {
