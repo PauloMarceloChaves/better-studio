@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="/components/desktop/style.css">
     <link rel="stylesheet" href="/components/mobile/mobile.css">
+    <link rel="stylesheet" href="studio.js">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
@@ -17,11 +19,11 @@
 
 <body>
     <header>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+        <span id="menu__burguer" class="material-symbols-outlined" onclick="clickMenu()">
             menu
         </span>
         <a class="logo" href="#">BetterStudio</a>
-        <div class="nav-header">
+        <div class="nav__header">
             <nav id="nav">
                 <ul>
                     <li><a class="style" href="#">Home</a></li>
@@ -33,52 +35,45 @@
                 </ul>
             </nav>
         </div>
-        <script>
-            const nav = document.getElementById('nav');
-
-            function clickMenu() {
-                nav.classList.toggle('opened');
-            }
-        </script>
     </header>
 
     <main class="content">
-        <section class="main-content">
-            <div class="main-container">
+        <section class="main__content">
+            <div class="main__container">
                 <div class="elements">
-                    <div class="text-container">
+                    <div class="text__container">
                         <h1>Quem disse BetterStudio?</h1>
                         <h2>A Digital Product Agency</h2>
-                        <p class="text-main">Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis,
+                        <p class="text__main">Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis,
                         vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e
                         fermentis.</p>
                         <button class="button">Contact Now</button>
                         <div class="points">
-                            <hr class="hr-points">
-                            <hr class="hr-points">
-                            <hr class="hr-points">
-                            <hr class="hr-points">
+                            <hr class="hr__points">
+                            <hr class="hr__points">
+                            <hr class="hr__points">
+                            <hr class="hr__points">
                         </div>
                     </div>
-                    <div class="geometric-images">
+                    <div class="geometric__images">
                         <div class="ellipse"></div>
-                        <div class="container-image">
-                            <img class="main-image" src="/assets/studio.png" alt="imagem de um estudio">
+                        <div class="container__image">
+                            <img class="main__image" src="/assets/studio.png" alt="imagem de um estudio">
                         </div>
-                        <div class="yellow-ellipse"></div>
+                        <div class="yellow__ellipse"></div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="secondary-content">
-            <div class="secondary-container">
-                <div class="secondary-text">
+        <section class="secondary__content">
+            <div class="secondary__container">
+                <div class="secondary__text">
                     <h2>Our Client</h2>
                     <p>Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé.</p>
                 </div>
-                <div class="carousel-container">
+                <div class="carousel__container">
                     <div class="carousel">
-                        <div class="container-logos">
+                        <div class="container__logos">
                             <ul>
                                 <li><a href="//google.com.br" target="_blank"><img class="google" src="/assets/logo-google.png"
                                     alt="logo da Google"></a></li>
@@ -100,8 +95,8 @@
                 </div>
             </div>
         </section>
-        <section class="how__can__container">
-            <div class="teste">
+        <!-- <section class="how__can__container">
+            <div class="geometric__how__can">
                 <div class="square"></div>
                 <div class="big__square"></div>
             </div>
@@ -153,6 +148,56 @@
                 </ul>
                 <div class="circle"></div>
             </div>
+        </section> -->
+
+        <section class="third__content">
+            <div class="third__container">
+                <div class="geometric__how__can">
+                    <div class="third__text">
+                        <div class="square"></div>
+                        <h2>How can we help your Business?</h2>
+                        <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
+                        <div class="points">
+                            <hr class="hr__dotted">
+                            <hr class="hr__dotted">
+                            <hr class="hr__dotted">
+                            <hr class="hr__dotted">
+                        </div>
+                    </div>
+                    <div class="third__card">
+                        <div class="big__square"></div>
+                        <div>
+                            <ul class="card__one__two">
+                                <li class="card">
+                                    <div class="img__card__one"></div>
+                                    <h2 class="h2__card">Business Idea Planning</h2>
+                                    <p class="p__card">We present you a proposal and discuss niffty-gritty like</p>
+                                </li>
+                                <li class="card">
+                                    <div class="img__card__two"></div>
+                                    <h2 class="h2__card">Development Website and App</h2>
+                                    <p class="p__card">Communication protocols apart from engagement models</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="card__three__four">
+                                <li class="card">
+                                    <div class="img__card__three"></div>
+                                    <h2 class="h2__card">Financial Planning System</h2>
+                                    <p class="p__card">Protocols apart from aengage models, pricing billing</p>
+                                </li>
+                                <li class="card card__four">
+                                    <div class="img__card__four"></div>
+                                    <h2 class="h2__card">Market Analysis Project</h2>
+                                    <p class="p__card">Protocols apart from aengage models, pricing billing</p>
+                                </li>
+                            </ul>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="section__four">
             <div>
@@ -175,6 +220,18 @@
                         <p>Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé.</p>
                     </div>
                     <div class="second-ellipse"></div>
+                    <ul class="card__one__two">
+                        <li class="card">
+                            <div class="img__card__one"></div>
+                            <h2 class="h2__card">Business Idea Planning</h2>
+                            <p class="p__card">We present you a proposal and discuss niffty-gritty like</p>
+                        </li>
+                        <li class="card">
+                            <div class="img__card__two"></div>
+                            <h2 class="h2__card">Development Website and App</h2>
+                            <p class="p__card">Communication protocols apart from engagement models</p>
+                        </li>
+                    </ul>
                 </div>
                 <div class="container-email">
                     <div class="points-email">
